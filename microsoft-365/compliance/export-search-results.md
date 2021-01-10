@@ -181,7 +181,8 @@ Here's more information about exporting search results.
 [Miscellaneous](#miscellaneous)
   
 ### Export limits
-  
+
+- For further details on Content Search limits go here [Limits for Content Search in the Security & Compliance Center](#https://docs.microsoft.com/en-us/microsoft-365/compliance/limits-for-content-search?view=o365-worldwide#content-search-limits)
 - Exporting search results from the Security & Compliance Center has the following limits:
 
   - You can export a maximum of 2 TB of data from a single Content Search. If the search results are larger than 2 TB, consider using date ranges or other types of filters to decrease the total size of the search results.
@@ -192,10 +193,11 @@ Here's more information about exporting search results.
 
   - A single user can run a maximum of three exports at the same time.
   
+  > [!NOTE]
+  > Exporting only the reports from a Content Search also counts against the number of exports running at the same time and the number of exports that a single user can run. If a single user is exporting 3 reports, the same user cannot start any other exports of reports or search results until 1 or more current exports has completed. 
+  
   - You can download the search results from a maximum of 100,000 mailboxes using the eDiscovery Export Tool in the Office 365 Security & Compliance Center or the Microsoft 365 compliance center. To download the search results from more than 100,000 mailboxes, you have to use Security & Compliance Center PowerShell. For instructions, see [Exporting results from more than 100,000 mailboxes](#exporting-results-from-more-than-100000-mailboxes).
 
-  > [!NOTE]
-  > Exporting only the reports from a Content Search also counts against the number of exports running at the same time and the number of exports that a single user can run.
   
 - As previously stated, search results from mailboxes and sites are uploaded to a Microsoft-provided Azure Storage location (as described in [Step 1: Prepare search results for export](#step-1-prepare-search-results-for-export)) at a maximum rate of 2 GB per hour.
   
